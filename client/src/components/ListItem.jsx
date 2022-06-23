@@ -7,9 +7,9 @@ function ListItem({title, content}) {
         return (
             <Card>
             <Card.Body>
-              <Card.Title>글 제목</Card.Title>
+              <Card.Title>{title}</Card.Title>
               <Card.Text>
-                {content}축약 내용 ㅇㅇㅇㅇㅇㅇㅇㅇ
+                {content}
               </Card.Text>
             </Card.Body>
           </Card>
