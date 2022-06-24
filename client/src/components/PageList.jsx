@@ -6,7 +6,6 @@ function PageList({ setPage }){
   const buttonRef2 = useRef(null);
   const buttonRef3 = useRef(null);
 
-
   const handleonClick1 = () => {
     const buttonValue1 = buttonRef1.current.textContent;
     setPage(Number(buttonValue1));
